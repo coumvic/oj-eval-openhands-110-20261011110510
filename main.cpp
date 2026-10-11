@@ -146,7 +146,7 @@ public:
     
     // Output operator
     friend ostream& operator<<(ostream& os, const Date& date) {
-        os << date._year << '-' << date._month << '-' << date._day << endl;
+        os << date._year << '-' << date._month << '-' << date._day;
         return os;
     }
     
